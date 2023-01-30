@@ -40,6 +40,7 @@ def main(filenames):
         combine_csv = csv_combiner(combine_csv, new_df)
     
     final_csv = combine_csv.to_csv('combine_csv')
+    return final_csv
     
 
 if __name__ == "__main__":
